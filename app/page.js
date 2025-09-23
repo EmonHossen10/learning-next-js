@@ -3,6 +3,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="mt-6">
+      <h2>This is Home page</h2>
       <h2>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eaque cum
         ex. Fuga deserunt iste ipsam assumenda quaerat maiores reiciendis ea,
