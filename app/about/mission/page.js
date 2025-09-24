@@ -1,4 +1,6 @@
 import Button from "@/app/Component/Button";
+import Image from "next/image";
+import img from "@/public/mission.png";
 
 const Mission = () => {
   return (
@@ -9,6 +11,7 @@ const Mission = () => {
         innovative technology solutions.
       </p>
       <Button></Button>
+      <Image placeholder="blur" src={img} alt="Our Mission" />
     </div>
   );
 };
