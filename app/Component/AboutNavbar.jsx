@@ -3,12 +3,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
-const Navbar = () => {
+const AboutNavbar = () => {
   const pathname = usePathname();
   const links = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    { href: "/contact", label: "Contact" },
+    { href: "/about/mission", label: "Mission" },
+    { href: "/about/vision", label: "Vision" },
+    
   ];
 
   return (
@@ -33,4 +33,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default AboutNavbar;
